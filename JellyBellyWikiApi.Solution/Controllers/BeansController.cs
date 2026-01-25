@@ -59,6 +59,8 @@ namespace JellyBellyWikiApi.Controllers
         query = query.Where(entry => entry.GroupNameSerialized.Contains(groupName));
       }
 
+      query = query.OrderBy(b => b.BeanId);
+
       var pagedResults = PaginationHelper.Paging(query, pageIndex, pageSize);
 
       return pagedResults;
