@@ -28,9 +28,9 @@ This API provides detailed information about Jelly Belly beans, including facts,
 
 This project is divided into three main segments, each with its own repository:
 
-1. [Jelly Belly Wiki API Data Collection](https://github.com/Object-ions/Jelly-Belly-Wiki-API-Data-Collection): This repository contains scripts and supporting files for data collection using Python, BeautifulSoup, and ChromeDriver. It details the methodology used for creatively gathering data step by step until it was ready to be seeded into the C# API.
+1. [Jelly Belly Wiki API Data Collection](https://github.com/switchcasestudio/Jelly-Belly-Wiki-API-Data-Collection): This repository contains scripts and supporting files for data collection using Python, BeautifulSoup, and ChromeDriver. It details the methodology used for creatively gathering data step by step until it was ready to be seeded into the C# API.
 2. [Jelly Belly Wiki API](#) (this repo): The heart of the project, this repository holds the C# and EF Core .Net API with MySql migrations. It serves as the core database of the project. Detailed instructions on how to use this API are available in the repository, similar to the API Documentation provided in the UI.
-3. [Jelly Belly Wiki Client](https://github.com/Object-ions/Jelly_Belly_Wiki_Client):: The User Interface makes full use of the API's database, showcasing one approach to design by utilizing all the endpoints and their various options.
+3. [Jelly Belly Wiki Client](https://github.com/switchcasestudio/Jelly_Belly_Wiki_Client):: The User Interface makes full use of the API's database, showcasing one approach to design by utilizing all the endpoints and their various options.
 
 ## [Live versions](#live)
 
@@ -82,7 +82,7 @@ This project is divided into three main segments, each with its own repository:
    - Change your directory to where you want the cloned directory.
    - Input the following command:
      ```
-     $ git clone https://github.com/Object-ions/Jelly-Belly-Wiki-API
+     $ git clone https://github.com/switchcasestudio/Jelly-Belly-Wiki-API
      ```
 
 ### Set up a Connection String to Database
